@@ -1,0 +1,55 @@
+h1 { color:aliceblue}
+
+.header{
+    background-color:blueviolet;
+    display:flex;
+    justify-content:LEFT;
+     
+}
+.grid{
+display:flex;
+justify-content: space-evenly;
+flex-wrap:wrap ;
+
+}
+.footer{
+display:flex;
+justify-content:flex-end ;
+
+}
+
+.menu{
+padding: 20px ; 
+ border: solid;   
+}
+a:link{
+color: rebeccapurple
+}
+a:visited{
+    color:rebeccapurple 
+}    
+.item{
+position: relative;
+}
+.item p{
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity: 0;
+color:rgb(0, 0, 0);
+
+}
+.item:hover p{
+opacity: 1;
+
+
+
+
+
+}
+.item:hover img{
+transform:scale(1.2);
+opacity: 0.33;
+
+}
